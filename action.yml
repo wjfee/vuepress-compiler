@@ -1,0 +1,7 @@
+# action.yml
+name: 'vuepress-compiler'
+description: 'compile vuepress'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
