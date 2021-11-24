@@ -19,11 +19,11 @@ do
   echo `ls`
   cd ${dir}${i}
   echo "start build in : `pwd`"
-  echo "npm list: `npm list`"
+  # echo "npm list: `npm list`"
   eval "$BUILD_SCRIPT"
   echo "${i} Build success"
   echo "after build now in : `pwd`"
-  echo "npm list2: `npm list`"
+  # echo "npm list2: `npm list`"
   echo `ls ${dir}`
 done
 
