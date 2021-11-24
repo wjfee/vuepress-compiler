@@ -14,6 +14,8 @@ echo "source: ${SOURCE_DIR}"
 echo "now in : `pwd`"
 echo "github.workspace: ${GITHUB_WORKSPACE}"
 dir="${GITHUB_WORKSPACE}/"
+
+echo "npm view: `npm view vuepress`"
 for i in ${SOURCE_DIR}
 do
   echo `ls`
